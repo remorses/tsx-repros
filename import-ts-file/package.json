@@ -1,0 +1,16 @@
+{
+    "name": "import-ts-file",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "repro": "tsx file.ts"
+    },
+    "keywords": [],
+    "author": "remorses <beats.by.morse@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "ts-package": "workspace:^1.0.0"
+    }
+}
