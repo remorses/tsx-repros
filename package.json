@@ -1,15 +1,15 @@
 {
-  "name": "tsx-repros",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "remorses <beats.by.morse@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "tsx": "^3.4.3"
-  }
+    "name": "tsx-repros",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "import-ts-file": "cd import-ts-file && pnpm repro"
+    },
+    "keywords": [],
+    "author": "remorses <beats.by.morse@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "tsx": "^3.4.3"
+    }
 }
